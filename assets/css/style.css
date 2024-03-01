@@ -38,6 +38,20 @@ a{
 .btn:hover{
     opacity: 0.9;
 }
+.secsion__heading{
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #10375C;
+}
+.secsion__desc{
+    margin-top: 18px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+    color:#575F66; 
+}
 /* ========== header ==========  */
 .header{
     padding-top: 38px;
@@ -189,4 +203,80 @@ a{
 .hero__img:last-child{
     width: 210px;
     height: 410px;
+}
+
+/* ========== Service ========== */
+.sercive{
+    padding: 170px 0;
+}
+.sercive__heading,
+.secsion__desc{
+    text-align: center;
+}
+.secsion__desc{
+    width: 468px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.service__row{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service__img{
+    width: 570px;
+    height: 570px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.service__list{
+    width: 470px;
+    margin-bottom: 55px;
+}
+
+/* Sercice Item */
+.service-item{
+    width: 470px;
+    display: flex;
+    padding: 22px;
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+.service-item:hover{
+    position: relative;
+    box-shadow: 0px 8px 16px 0px #289BDE26;
+}
+.service-item:hover .service-item__icon{
+    color: #FFFFFF;
+    background: #2E80CE;
+}
+.service-item__icon{
+    width: 60px;
+    height: 60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #EFF6FD;
+    transition: 0.25s;
+}
+.sercive-item__body{
+    margin-left: 19px;
+    min-width: 351px;
+}
+.sercive-item__heading{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.27;
+    color: #10375C;
+}
+.service-item__desc{
+    margin-top: 8px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+    color: #575F66;
 }
