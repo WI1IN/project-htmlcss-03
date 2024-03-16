@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shine smile</title>
-    <!-- Favicon -->
+    <!-- ========== Favicon ========== -->
     <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
@@ -23,25 +23,27 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <!-- Embeb fonts -->
+    <!-- ========== Embeb fonts ========== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&family=Sora:wght@100..800&display=swap"
         rel="stylesheet">
-    <!-- Reset css -->
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- ========== Reset css ========== -->
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- ========== Link Animation ========= -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Header -->
+    <!-- ========== Header ========== -->
     <header class="header">
         <div class="container">
-            <!-- Header-top -->
+            <!-- ========== Header-top ========== -->
             <div class="header-top">
                 <a href="/">
-                    <!-- Logo -->
+                    <!-- ========== Logo ========== -->
                     <div class="logo">
                         <span class="logo__circle"></span>
                         <span class="logo__text">
@@ -50,7 +52,7 @@
                         </span>
                     </div>
                 </a>
-                <!-- Navbar -->
+                <!-- ========== Navbar ========== -->
                 <nav class="navbar">
                     <ul class="navbar__list">
                         <li class="navbar__item">
@@ -61,18 +63,18 @@
                         </li>
                     </ul>
                 </nav>
-                <!-- Action -->
+                <!-- ========== Action ========== -->
                 <div class="header-action">
                     <a href="#!" class="header-action__login">Log In</a>
                     <a href="#!" class=" btn header-action__sighup">Sigh Up</a>
                 </div>
             </div>
         </div>
-         <!-- Hero -->
+         <!-- ========== Hero ========== -->
          <section class="hero">
             <div class="container">
-                <div class="hero__">
-                    <!-- Hero content -->
+                <div class="hero">
+                    <!-- ========== Hero content ========== -->
                     <section class="hero__content">
                         <h1 class="hero__heading">Exceptional dental care for all ages.</h1>
                         <p class="hero__desc">Exceptional dental care for all ages. Your great smile begins with a great
@@ -82,7 +84,7 @@
                             <span class="hero__phone">or call (123) 456-7890</span>
                         </div>
                     </section>
-                    <!-- Hero media -->
+                    <!-- ========== Hero media ========== -->
                     <div class="hero__media">
                         <figure class="hero__images">
                             <img src="./assets/img/hero-img-1.jpg" alt="Hero-img" class="hero__img">
@@ -92,10 +94,10 @@
                 </div>
         </section>
     </header>
-    <!-- Main -->
+    <!-- ========== Main ========== -->
     <main>
        
-        <!-- Sercive -->
+        <!-- ========== Sercive ========== -->
         <section class="sercive">
             <div class="container">
                 <h2 class="sercive__heading secsion__heading">Our services</h2>
@@ -108,7 +110,7 @@
                     </figure>
                     <div>
                         <div class="service__list">
-                            <!-- Service Item 1 -->
+                            <!-- ========== Service Item 1 ========== -->
                             <section class="service-item">
                                 <div class="service-item__icon">
                                     <svg width="22" height="24" viewBox="0 0 22 24" fill="none"
@@ -125,7 +127,7 @@
                                         and x-rays.</p>
                                 </div>
                             </section>
-                            <!-- Service Item 2 -->
+                            <!-- ========== Service Item 2 =========== -->
                             <section class="service-item">
                                 <div class="service-item__icon">
                                     <svg width="22" height="24" viewBox="0 0 22 24" fill="none"
@@ -142,7 +144,7 @@
                                         and x-rays.</p>
                                 </div>
                             </section>
-                            <!-- Service Item 3 -->
+                            <!-- ========== Service Item 3 =========== -->
                             <section class="service-item">
                                 <div class="service-item__icon">
                                     <svg width="22" height="24" viewBox="0 0 22 24" fill="none"
@@ -167,14 +169,14 @@
                 </div>
             </div>
         </section>
-        <!-- Work -->
+        <!-- ========== Work ========== -->
         <section class="work">
             <div class="container">
                 <h2 class="secsion__heading">How it works</h2>
                 <p class="secsion__desc work__desc">
                     Exceptional dental care for all ages. Your great smile begins with a great dentist.
                 </p>
-                <!-- work-list -->
+                <!-- ========== work-list ========== -->
                 <section class="work-list">
                     <!-- Item 1 -->
                     <section class="Work-item">
@@ -208,18 +210,19 @@
                     </section>
                 </section>
         </section>
-        <!-- Feature -->
+        <!-- ========== Feature ========== -->
         <section class="feature">
             <div class="container">
                 <div class="feature__inner">
-                    <!-- Feature-Media -->
+                    <!-- ========== Feature-Media ========== -->
                     <div class="feature__media">
-                        <figure class="feature__images">
+                        <figure class="feature__images"
+                        data-aos="fade-right">
                             <img src="./assets/img/feature-1.jpg" alt="Feature" class="feature__img">
                             <img src="./assets/img/feature-2.jpg" alt="Feature" class="feature__img">
                         </figure>
                     </div>
-                    <!-- Feature content -->
+                    <!-- ========== Feature content ========== -->
                     <section class="feature__content">
                         <h2 class="secsion__heading">Take back your smile with shine.</h2>
                         <p class="secsion__desc feature__desc">
@@ -231,7 +234,7 @@
                 </div>
             </div>
         </section>
-        <!-- Member -->
+        <!-- ========== Member ========== -->
         <section class="member">
             <div class="container">
                 <div class="member-heading">
@@ -273,7 +276,7 @@
                     </article>
                 </div>
                 <div class="member__control control">
-                    <!-- Previous -->
+                    <!-- ========== Previous ============ -->
                     <button class="control-btn">
                         <svg width="6" height="12" class="control-icon" viewBox="0 0 6 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -281,7 +284,7 @@
                                 stroke-linejoin="round" />
                         </svg>
                     </button>
-                    <!-- Previous -->
+                    <!-- ========= Previous ========== -->
                     <button class="control-btn">
                         <svg width="6" height="12" class="control-icon-next" viewBox="0 0 6 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -293,7 +296,7 @@
 
             </div>
         </section>
-        <!-- Install -->
+        <!-- ========== Install =========== -->
         <section class="install">
             <div class="container">
                 <div class="install__inner">
@@ -318,16 +321,16 @@
                 </div>
             </div>
         </section>
-        <!-- News -->
+        <!-- ========= News ========== -->
         <section class="news">
             <div class="container">
                 <div class="news__inner">
-                    <!-- News-content -->
+                    <!-- ========== News-content =========== -->
                     <section class="news__content">
                         <h2 class="section-heading">Read Latest News & Events.</h2>
                         <a href="#!" class="news__more">Read All Blog</a>
                         <div class="control news__control">
-                            <!-- Previous -->
+                            <!-- =========== Previous ========== -->
                             <button class="control-btn">
                                 <svg width="6" height="12" class="control-icon" viewBox="0 0 6 12" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -335,7 +338,7 @@
                                         stroke-linejoin="round" />
                                 </svg>
                             </button>
-                            <!-- Netx-->
+                            <!-- ========== Netx ========== -->
                             <button class="control-btn">
                                 <svg width="6" height="12" class="control-icon-next" viewBox="0 0 6 12" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -345,9 +348,9 @@
                             </button>
                         </div>
                     </section>
-                    <!-- New-list -->
+                    <!-- ========== New-list ========== -->
                     <div class="news__list">
-                        <!-- Item 1 -->
+                        <!-- ========== Item 1 =========== -->
                         <article class="news-items">
                             <figure>
                                 <a href="#!">
@@ -366,7 +369,7 @@
                                 <a href="#!x" class="news-item__more">Learn More</a>
                             </section>
                         </article>
-                        <!-- Item 2 -->
+                        <!-- ========== Item 2 ========== -->
                         <article class="news-items">
                             <figure>
                                 <a href="#!">
@@ -388,7 +391,7 @@
                 </div>
             </div>
         </section>
-        <!-- Appointment -->
+        <!-- ========== Appointment ========== -->
         <section class="appointment">
             <div class="container">
                 <div class="appointment__inner">
@@ -400,13 +403,13 @@
             </div>
         </section>
     </main>
-    <!-- Footer -->
+    <!-- ========== Footer ========== -->
     <footer class="footer">
         <div class="container">
             <div class="footer__row">
                 <div class="footer__column">
                     <a href="/">
-                        <!-- Logo -->
+                        <!-- ========== Logo ========== -->
                         <div class="logo">
                             <span class="logo__circle"></span>
                             <span class="logo__text">
@@ -527,6 +530,10 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

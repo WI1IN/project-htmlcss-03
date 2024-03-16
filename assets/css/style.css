@@ -1,3 +1,4 @@
+/* ========== Reset Css ========== */
 *{
     box-sizing: border-box;
 }
@@ -11,7 +12,7 @@ body{
 :root{
     --heder-bg:#10375C;
 }
-/* ke thua */
+/* ========= Ke Thua ========== */
 input,
 template,
 select,
@@ -25,9 +26,11 @@ button{
     max-width: calc(1170px - 48px);
     margin: 0 auto;
 }
+/* =========== leave the legs ============= */
 a{
     text-decoration: none;
 }
+/* ========== create btn =========== */
 .btn{
     display: inline-block;
     --height:60px;
@@ -43,6 +46,7 @@ a{
     text-align: center;  
     color: #FFFFFF;
 }
+/* ========= Create Hover btn ========= */
 .btn:hover{
     opacity: 0.9;
 }
@@ -178,7 +182,7 @@ a{
 
 /* ========== Hero ========== */
 .hero{
-    margin-top: 76px;
+    margin: 76px 0  ;
     display: flex;
     align-items: center;
 }
@@ -621,7 +625,7 @@ a{
     margin-top: 38px;
 }
 
-/* ========== Foter ========== */
+/* ========== Footer ========== */
 .footer{
     padding-top: 100px;
     background-color: #10375C;
